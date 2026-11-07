@@ -1,0 +1,14 @@
+{
+  "name": "finwise-ai-project",
+  "version": "1.0.0",
+  "description": "FinWise AI – Intelligent Personal Finance Management Web Application",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "build": "npm --prefix client run build",
+    "test:ai": "npm --prefix server exec tsx src/test-suite.ts"
+  },
+  "keywords": ["finance", "ai", "gemini", "fintech", "recharts", "fastapi", "react", "inr"]
+}
